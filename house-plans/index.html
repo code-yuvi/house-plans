@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Ground floor blueprints</title>
+  <style>
+    body { margin: 0; background: #e6e1d8; color: #22282c; font-family: "Segoe UI", Helvetica, Arial, sans-serif; }
+    header { padding: 18px 24px 8px; }
+    h1 { font-size: 20px; font-weight: 650; margin: 0 0 4px; }
+    p { margin: 0; font-size: 14px; }
+    .sheet { width: 1700px; margin: 16px auto; background: white; }
+    img { width: 100%; height: auto; display: block; }
+    @media print {
+      body { background: white; }
+      header { display: none; }
+      .sheet { width: auto; margin: 0; page-break-after: always; }
+      @page { size: landscape; margin: 0.3in; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ground floor for a future bungalow</h1>
+    <p>Five sheets. Print landscape, one sheet to a page. These are concept drawings, not a permit set.</p>
+  </header>
+  <section class="sheet"><img src="01-site-plan.svg" alt="Site plan"></section>
+  <section class="sheet"><img src="02-ground-floor-option-a.svg" alt="Option A ground floor"></section>
+  <section class="sheet"><img src="03-ground-floor-option-b.svg" alt="Option B ground floor"></section>
+  <section class="sheet"><img src="04-future-first-floor.svg" alt="Future first floor"></section>
+  <section class="sheet"><img src="05-north-elevation.svg" alt="North elevation"></section>
+</body>
+</html>
